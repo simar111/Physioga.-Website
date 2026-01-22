@@ -8,13 +8,33 @@ import FAQSection from "../components/HeroComponents/Faq";
 const Home = () => {
 return(
     <>
-    <Hero />
-    <TrustStrip />
-    <HowItWorks />
-    <Services />
-    <AudienceSplit />
-    <AboutWithWhatsAppCTA />
-    <FAQSection />
+    <section id="hero">
+        <Hero />
+      </section>
+
+      <section id="trust">
+        <TrustStrip />
+      </section>
+
+      <section id="how-it-works">
+        <HowItWorks />
+      </section>
+
+      <section id="services">
+        <Services />
+      </section>
+
+      <section id="audience">
+        <AudienceSplit />
+      </section>
+
+      <section id="about">
+        <AboutWithWhatsAppCTA />
+      </section>
+
+      <section id="faq">
+        <FAQSection />
+      </section>
     </>
 )
 }
