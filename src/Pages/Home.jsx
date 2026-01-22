@@ -2,6 +2,7 @@ import Hero from "../components/HeroComponents/Hero";
 import TrustStrip from "../components/HeroComponents/TrustStrip";
 import HowItWorks from "../components/HeroComponents/HowItWorks";
 import Services from "../components/HeroComponents/Services";
+import AudienceSplit from "../components/HeroComponents/AudienceSplit";
 const Home = () => {
 return(
     <>
@@ -9,6 +10,7 @@ return(
     <TrustStrip />
     <HowItWorks />
     <Services />
+    <AudienceSplit />
     </>
 )
 }
