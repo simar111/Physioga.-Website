@@ -441,28 +441,27 @@ const AboutWithWhatsAppCTA = () => {
                 className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent"
               />
               
-              <span className="relative z-10 flex items-center gap-3">
-                <motion.button
-                      onClick={() => {
-    window.open(
-      "https://wa.me/919530045520",
-      "_blank"
-    );
-  }}
-                >
-                <motion.div
-                  animate={{ rotate: [0, 360] }}
-                  transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
-                >
-                  <FiMessageCircle className="w-6 h-6" />
-                </motion.div>
-                Start Chat on WhatsApp
-                <FiArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
-                </motion.button>
-              </span>
-              
+             <a
+  href="https://wa.me/919530045520?text=Hi%20I%20want%20to%20start%20a%20chat"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group inline-flex items-center justify-center"
+>
+  <span className="relative z-10 flex items-center gap-3">
+    <motion.div
+      animate={{ rotate: [0, 360] }}
+      transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
+    >
+      <FiMessageCircle className="w-6 h-6" />
+    </motion.div>
+
+    Start Chat on WhatsApp
+
+    <FiArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
+  </span>
+</a>
+
             </motion.a>
-            
 
             <motion.p
               initial={{ opacity: 0 }}
