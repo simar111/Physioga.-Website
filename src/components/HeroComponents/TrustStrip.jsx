@@ -30,8 +30,8 @@ const trustItems = [
 ];
 
 const statsItems = [
-  { icon: Shield, value: "10,000+", label: "Happy Patients" },
-  { icon: TrendingUp, value: "500+", label: "Expert Therapists" },
+  { icon: Shield, value: "100+", label: "Happy Patients" },
+  { icon: TrendingUp, value: "20+", label: "Expert Therapists" },
   { icon: Clock, value: "24/7", label: "Support Available" },
   { icon: MapPin, value: "50+", label: "Cities Covered" },
 ];
