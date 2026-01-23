@@ -185,7 +185,7 @@ const Hero = () => {
               </motion.a>
 
               <motion.a
-                href="/physiotherapists"
+                href="https://wa.me/919530045520"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
                 className="px-8 py-4 rounded-full border-2 border-[#7A5C3E] text-[#7A5C3E] font-semibold hover:bg-[#7A5C3E] hover:text-white transition-all shadow-lg"
