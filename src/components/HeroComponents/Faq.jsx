@@ -342,7 +342,7 @@ const FAQSection = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://wa.me/91XXXXXXXXXX"
+                  href="https://wa.me/919530045520"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white font-semibold hover:shadow-lg transition-all duration-300 group"
@@ -353,7 +353,7 @@ const FAQSection = () => {
                 </a>
                 
                 <a
-                  href="tel:+911234567890"
+                  href="tel:+919530045520"
                   className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-gradient-to-r from-[#C9A36A] to-[#7A5C3E] text-white font-semibold hover:shadow-lg transition-all duration-300 group"
                 >
                   <span className="mr-3">📞</span>
