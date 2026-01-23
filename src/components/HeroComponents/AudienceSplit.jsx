@@ -195,31 +195,46 @@ const AudienceSplit = () => {
                 ))}
               </ul>
 
-              <a
-                href="/book"
-                className="group/btn inline-flex items-center gap-3 mt-10 px-8 py-4 rounded-full
-                           bg-gradient-to-r from-[#C9A36A] to-[#B8926A] text-white font-semibold shadow-lg
-                           hover:shadow-xl hover:scale-105 active:scale-95
-                           transition-all duration-300 relative overflow-hidden"
-              >
-                <span className="relative z-10">Book Care</span>
-                <motion.svg 
-                  className="w-5 h-5 relative z-10"
-                  animate={{ x: hoveredCard === 'patient' ? 5 : 0 }}
-                  transition={{ duration: 0.3 }}
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </motion.svg>
-                <motion.div
-                  className="absolute inset-0 bg-white/20"
-                  initial={{ x: '-100%' }}
-                  whileHover={{ x: '100%' }}
-                  transition={{ duration: 0.6 }}
-                />
-              </a>
+              <motion.button
+   onClick={() => {
+    window.open(
+      "https://wa.me/919530045520",
+      "_blank"
+    );
+  }}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group/btn inline-flex items-center gap-3 mt-10 px-8 py-4 rounded-full
+             bg-gradient-to-r from-[#C9A36A] to-[#B8926A] text-white font-semibold shadow-lg
+             hover:shadow-xl hover:scale-105 active:scale-95
+             transition-all duration-300 relative overflow-hidden"
+>
+  <span className="relative z-10">Book Care</span>
+
+  <motion.svg
+    className="w-5 h-5 relative z-10"
+    animate={{ x: hoveredCard === 'patient' ? 5 : 0 }}
+    transition={{ duration: 0.3 }}
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2.5}
+      d="M13 7l5 5m0 0l-5 5m5-5H6"
+    />
+  </motion.svg>
+
+  <motion.div
+    className="absolute inset-0 bg-white/20"
+    initial={{ x: '-100%' }}
+    whileHover={{ x: '100%' }}
+    transition={{ duration: 0.6 }}
+  />
+</motion.button>
+
             </div>
           </motion.div>
 
@@ -302,8 +317,13 @@ const AudienceSplit = () => {
                 ))}
               </ul>
 
-              <a
-                href="/join"
+              <motion.button
+                onClick={() => {
+    window.open(
+      "https://wa.me/919530045520",
+      "_blank"
+    );
+  }}
                 className="group/btn inline-flex items-center gap-3 mt-10 px-8 py-4 rounded-full
                            bg-white text-[#7A5C3E] font-semibold shadow-xl
                            hover:bg-[#F5E1D8] hover:shadow-2xl hover:scale-105 active:scale-95
@@ -326,7 +346,7 @@ const AudienceSplit = () => {
                   whileHover={{ x: '100%' }}
                   transition={{ duration: 0.6 }}
                 />
-              </a>
+              </motion.button>
             </div>
           </motion.div>
         </div>
