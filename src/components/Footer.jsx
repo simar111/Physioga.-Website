@@ -7,12 +7,13 @@ const Footer = () => {
 
         {/* Brand */}
         <div>
-          <h2 className="text-2xl font-semibold text-[#C9A36A] mb-4">
+          <a href="#hero" className="text-2xl font-semibold text-[#C9A36A] mb-4 block">
             Physioga
-          </h2>
+          </a>
           <p className="text-sm leading-relaxed">
-            Physioga connects patients with trusted physiotherapists through
-            a simple, transparent, and human-assisted process.
+            Physioga connects patients with trusted health & wellness
+            professionals through a simple, transparent, and human-assisted
+            process.
           </p>
         </div>
 
@@ -23,24 +24,29 @@ const Footer = () => {
           </h3>
           <ul className="space-y-3 text-sm">
             <li>
-              <Link to="/" className="hover:text-[#C9A36A] transition">
+              <a href="#hero" className="hover:text-[#C9A36A] transition">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/about" className="hover:text-[#C9A36A] transition">
+              <a href="#about" className="hover:text-[#C9A36A] transition">
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/howitworks" className="hover:text-[#C9A36A] transition">
+              <a href="#how-it-works" className="hover:text-[#C9A36A] transition">
                 How It Works
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-[#C9A36A] transition">
-                Contact
-              </Link>
+              <a href="#services" className="hover:text-[#C9A36A] transition">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#faq" className="hover:text-[#C9A36A] transition">
+                FAQ
+              </a>
             </li>
           </ul>
         </div>
@@ -52,7 +58,7 @@ const Footer = () => {
           </h3>
           <ul className="space-y-3 text-sm">
             <li>Email: support@physioga.in</li>
-            <li>Phone: +91 XXXXX XXXXX</li>
+            <li>Phone: +91 9530045520</li>
             <li>India</li>
           </ul>
         </div>
@@ -84,12 +90,12 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-6">
-            <Link to="/privacy-policy" className="hover:text-[#C9A36A] transition">
+            <a href="#privacy" className="hover:text-[#C9A36A] transition">
               Privacy Policy
-            </Link>
-            <Link to="/terms" className="hover:text-[#C9A36A] transition">
+            </a>
+            <a href="#terms" className="hover:text-[#C9A36A] transition">
               Terms & Conditions
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -98,3 +104,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
