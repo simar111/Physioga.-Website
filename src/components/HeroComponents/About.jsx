@@ -442,6 +442,14 @@ const AboutWithWhatsAppCTA = () => {
               />
               
               <span className="relative z-10 flex items-center gap-3">
+                <motion.button
+                      onClick={() => {
+    window.open(
+      "https://wa.me/919530045520",
+      "_blank"
+    );
+  }}
+                >
                 <motion.div
                   animate={{ rotate: [0, 360] }}
                   transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
@@ -450,8 +458,11 @@ const AboutWithWhatsAppCTA = () => {
                 </motion.div>
                 Start Chat on WhatsApp
                 <FiArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
+                </motion.button>
               </span>
+              
             </motion.a>
+            
 
             <motion.p
               initial={{ opacity: 0 }}
