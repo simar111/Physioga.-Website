@@ -222,6 +222,10 @@ const Hero = () => {
                     src="./Hero2.png"
                     alt="Physiotherapy care"
                     className="w-full max-w-md aspect-[4/5] object-cover"
+                     loading="eager"
+  fetchpriority="high"
+  decoding="async"
+  
                   />
                   {/* Image Overlay Gradient */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#2E2E2E]/20 to-transparent" />
