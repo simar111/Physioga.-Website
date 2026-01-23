@@ -334,21 +334,28 @@ const Services = () => {
           className="mt-16 sm:mt-20 text-center"
         >
           <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-full
-                       bg-gradient-to-r from-[#C9A36A] via-[#B8965A] to-[#7A5C3E]
-                       text-white font-semibold text-base sm:text-lg shadow-xl hover:shadow-2xl
-                       transition-all duration-300"
-          >
-            <span>Join Now</span>
-            <motion.span
-              animate={{ x: [0, 5, 0] }}
-              transition={{ duration: 1.5, repeat: Infinity }}
-            >
-              →
-            </motion.span>
-          </motion.button>
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  onClick={() => {
+    window.open(
+      "https://wa.me/919530045520?text=Hi%20I%20want%20to%20join",
+      "_blank"
+    );
+  }}
+  className="inline-flex items-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-full
+             bg-gradient-to-r from-[#C9A36A] via-[#B8965A] to-[#7A5C3E]
+             text-white font-semibold text-base sm:text-lg shadow-xl hover:shadow-2xl
+             transition-all duration-300"
+>
+  <span>Join Now</span>
+  <motion.span
+    animate={{ x: [0, 5, 0] }}
+    transition={{ duration: 1.5, repeat: Infinity }}
+  >
+    →
+  </motion.span>
+</motion.button>
+
         </motion.div>
       </div>
     </section>
