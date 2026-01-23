@@ -97,7 +97,7 @@ const Hero = () => {
                 ))}
               </div>
               <span className="text-sm font-medium text-[#2E2E2E]">
-                Trusted by 10,000+ patients
+                Trusted by 100+ patients
               </span>
             </motion.div>
 
@@ -146,7 +146,7 @@ const Hero = () => {
               {[
                 { icon: CheckCircle2, text: "Verified Professionals" },
                 { icon: MessageCircle, text: "24/7 Support" },
-                { icon: Users, text: "500+ Therapists" },
+                { icon: Users, text: "20+ Therapists" },
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -219,7 +219,7 @@ const Hero = () => {
               <div className="relative bg-white/70 backdrop-blur-2xl p-3 sm:p-4 rounded-3xl shadow-2xl border border-white/50">
                 <div className="relative overflow-hidden rounded-2xl">
                   <img
-                    src="./Hero1.png"
+                    src="./Hero2.png"
                     alt="Physiotherapy care"
                     className="w-full max-w-md aspect-[4/5] object-cover"
                   />
