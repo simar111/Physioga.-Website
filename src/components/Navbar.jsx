@@ -42,7 +42,7 @@ const handleNavClick = () => {
 
           {/* WhatsApp CTA */}
           <a
-            href="https://wa.me/91XXXXXXXXXX"
+            href="https://wa.me/919530045520"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex px-6 py-2.5 rounded-full bg-gradient-to-r from-[#C9A36A] to-[#B8965A] text-white text-sm font-medium shadow hover:to-[#7A5C3E] transition"

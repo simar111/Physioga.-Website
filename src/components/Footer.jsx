@@ -66,7 +66,7 @@ const Footer = () => {
             Have questions or need help? Chat with us directly on WhatsApp.
           </p>
           <a
-            href="https://wa.me/91XXXXXXXXXX"
+            href="https://wa.me/919530045520"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 rounded-full bg-[#C9A36A] text-[#1F1F1F] font-medium shadow hover:bg-[#7A5C3E] hover:text-white transition-all"
