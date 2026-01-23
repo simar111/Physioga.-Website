@@ -72,7 +72,7 @@ const handleNavClick = () => {
           ))}
 
           <a
-            href="https://wa.me/91XXXXXXXXXX"
+            href="https://wa.me/919530045520"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center mt-4 px-6 py-3 rounded-full bg-gradient-to-r from-[#C9A36A] to-[#B8965A] text-white font-medium"
