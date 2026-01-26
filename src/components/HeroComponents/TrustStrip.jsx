@@ -221,7 +221,7 @@ const TrustStrip = () => {
             </motion.div>
             <div className="text-left">
               <p className="text-sm font-semibold text-[#2E2E2E]">
-                Serving Across India
+                Serving Across Jaipur
               </p>
               <p className="text-xs text-[#4A4A4A]">
                 Available in 50+ cities nationwide
