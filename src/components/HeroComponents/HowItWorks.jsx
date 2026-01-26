@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const steps = [
   {
     step: "01",
-    title: "Submit Your Request",
+    title: "Call/Contact us through whatsapp",
     description:
       "Fill a quick form or message us on WhatsApp with your health requirement and location.",
     icon: "📝",
