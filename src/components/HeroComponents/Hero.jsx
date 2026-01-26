@@ -173,7 +173,7 @@ const Hero = () => {
                 className="group relative px-8 py-4 rounded-full bg-gradient-to-r from-[#C9A36A] to-[#7A5C3E] text-white font-semibold shadow-xl overflow-hidden"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
-                  Book Physiotherapy
+                  Book an Appointment
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </span>
                 <motion.div
