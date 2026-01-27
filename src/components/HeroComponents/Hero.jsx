@@ -219,7 +219,7 @@ const Hero = () => {
               <div className="relative bg-white/70 backdrop-blur-2xl p-3 sm:p-4 rounded-3xl shadow-2xl border border-white/50">
                 <div className="relative overflow-hidden rounded-2xl">
                   <img
-                    src="./Hero2.png"
+                    src="/Hero2.png"
                     alt="Physiotherapy care"
                     className="w-full max-w-md aspect-[4/5] object-cover"
                      loading="eager"
