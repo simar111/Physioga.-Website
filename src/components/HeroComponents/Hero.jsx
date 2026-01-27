@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, CheckCircle2, MessageCircle, Star, Users } from "lucide-react";
 import { useEffect, useState } from "react";
-import heroImage from "/Hero2.png";
+import heroImage from "../../assets/Hero2.png";
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const { scrollY } = useScroll();
