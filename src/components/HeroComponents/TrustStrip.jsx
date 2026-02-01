@@ -30,10 +30,10 @@ const trustItems = [
 ];
 
 const statsItems = [
-  { icon: Shield, value: "100+", label: "Happy Patients" },
-  { icon: TrendingUp, value: "20+", label: "Expert Therapists" },
+  { icon: Shield, value: "5+", label: "Happy Patients" },
+  { icon: TrendingUp, value: "50+", label: "Professionals" },
   { icon: Clock, value: "24/7", label: "Support Available" },
-  { icon: MapPin, value: "50+", label: "Cities Covered" },
+  { icon: MapPin, value: "Currently in Jaipur", label: "" },
 ];
 
 const TrustStrip = () => {
@@ -224,7 +224,7 @@ const TrustStrip = () => {
                 Serving Across Jaipur
               </p>
               <p className="text-xs text-[#4A4A4A]">
-                Available in 50+ cities nationwide
+                {/* Available in 50+ cities nationwide */}
               </p>
             </div>
             <div className="flex -space-x-1">
