@@ -16,7 +16,7 @@ const AboutWithWhatsAppCTA = () => {
   ];
 
   const features = [
-    { value: "500+", label: "Verified Professionals", subtext: "Across India" },
+    { value: "50+", label: "Verified Professionals", subtext: "Across India" },
     { value: "24/7", label: "Care Support", subtext: "Always available" },
     { value: "98%", label: "Satisfaction Rate", subtext: "Patient feedback" },
     { value: "2h", label: "Average Response", subtext: "Fast connections" },
