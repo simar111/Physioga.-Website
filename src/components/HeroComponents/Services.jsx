@@ -17,33 +17,41 @@ const services = [
     gradient: "from-[#D4AF7A] via-[#C9A36A] to-[#B8965A]",
   },
   {
-    title: "Rehabilitation",
-    description: "Structured rehab programs for injuries, neurological, and orthopedic conditions.",
-    icon: "🏥",
-    image: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=800&auto=format&fit=crop",
-    gradient: "from-[#B8965A] via-[#A8855A] to-[#98754A]",
-  },
-  {
-    title: "Post-Surgery Recovery",
-    description: "Guided recovery support after surgeries to regain strength and movement.",
-    icon: "🩺",
-    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&auto=format&fit=crop",
-    gradient: "from-[#C9A36A] via-[#B8965A] to-[#A8855A]",
-  },
-  {
-    title: "Pain Management",
-    description: "Non-invasive approaches to manage chronic and acute pain effectively.",
-    icon: "💆‍♂️",
-    image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=800&auto=format&fit=crop",
-    gradient: "from-[#D4AF7A] via-[#C9A36A] to-[#B8965A]",
-  },
-  {
-    title: "Wellness & Mobility Care",
-    description: "Preventive care focused on long-term wellness and healthy movement.",
-    icon: "✨",
-    image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&auto=format&fit=crop",
-    gradient: "from-[#B8965A] via-[#A8855A] to-[#98754A]",
-  },
+  title: "Diet & Nutrition Therapy",
+  description: "Personalized nutrition plans to support healing, energy, and overall wellness.",
+  icon: "🥗",
+  image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&auto=format&fit=crop",
+  gradient: "from-[#D4AF7A] via-[#C9A36A] to-[#B8965A]",
+},
+
+  // {
+  //   title: "Rehabilitation",
+  //   description: "Structured rehab programs for injuries, neurological, and orthopedic conditions.",
+  //   icon: "🏥",
+  //   image: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=800&auto=format&fit=crop",
+  //   gradient: "from-[#B8965A] via-[#A8855A] to-[#98754A]",
+  // },
+  // {
+  //   title: "Post-Surgery Recovery",
+  //   description: "Guided recovery support after surgeries to regain strength and movement.",
+  //   icon: "🩺",
+  //   image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&auto=format&fit=crop",
+  //   gradient: "from-[#C9A36A] via-[#B8965A] to-[#A8855A]",
+  // },
+  // {
+  //   title: "Pain Management",
+  //   description: "Non-invasive approaches to manage chronic and acute pain effectively.",
+  //   icon: "💆‍♂️",
+  //   image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=800&auto=format&fit=crop",
+  //   gradient: "from-[#D4AF7A] via-[#C9A36A] to-[#B8965A]",
+  // },
+  // {
+  //   title: "Wellness & Mobility Care",
+  //   description: "Preventive care focused on long-term wellness and healthy movement.",
+  //   icon: "✨",
+  //   image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&auto=format&fit=crop",
+  //   gradient: "from-[#B8965A] via-[#A8855A] to-[#98754A]",
+  // },
 ];
 
 const ServiceCard = ({ service, index }) => {
