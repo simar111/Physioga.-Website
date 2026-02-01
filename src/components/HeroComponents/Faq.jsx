@@ -378,7 +378,7 @@ const FAQSection = () => {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 text-center"
         >
           <div className="p-6 rounded-2xl bg-white border border-[#F5E1D8]">
-            <div className="text-2xl font-bold text-[#C9A36A]">500+</div>
+            <div className="text-2xl font-bold text-[#C9A36A]">50+</div>
             <div className="mt-2 text-sm text-[#7A5C3E]">Questions answered daily</div>
           </div>
           <div className="p-6 rounded-2xl bg-white border border-[#F5E1D8]">
