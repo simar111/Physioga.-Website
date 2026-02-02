@@ -163,8 +163,8 @@ const AudienceSplit = () => {
                 </svg>
               </motion.div>
 
-              <span className="text-xs tracking-[0.2em] text-[#7A5C3E] uppercase font-semibold">
-                For Patients
+              <span className="text-xs tracking-[0.2em] text-[#7A5C3E] uppercase font-semibold ml-3">
+                      For Patients
               </span>
 
               <h3 className="mt-5 text-3xl font-bold text-[#2E2E2E] leading-tight">
@@ -285,7 +285,7 @@ const AudienceSplit = () => {
                 </svg>
               </motion.div>
 
-              <span className="text-xs tracking-[0.2em] uppercase font-semibold text-white/90">
+              <span className="text-xs tracking-[0.2em] uppercase font-semibold text-white/90 ml-3">
                 For Health Professionals
               </span>
 
