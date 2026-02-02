@@ -146,7 +146,7 @@ const Hero = () => {
               {[
                 { icon: CheckCircle2, text: "Verified Professionals" },
                 { icon: MessageCircle, text: "24/7 Support" },
-                { icon: Users, text: "20+ Therapists" },
+                { icon: Users, text: "50+ Therapists" },
               ].map((item, i) => (
                 <motion.div
                   key={i}
