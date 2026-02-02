@@ -21,20 +21,8 @@ const FAQSection = () => {
       category: "Trust & Safety",
       color: "from-[#25D366] to-[#128C7E]"
     },
-    {
-      question: "Is there any extra charge or hidden fees?",
-      answer: "Absolutely not. What you see is what you pay. The price quoted includes the professional's fee, our coordination support, and any platform services. No hidden charges, no surprises. You pay directly to the professional after your session is completed to your satisfaction.",
-      icon: <FiDollarSign />,
-      category: "Pricing",
-      color: "from-[#667eea] to-[#764ba2]"
-    },
-    {
-      question: "How fast is the response time?",
-      answer: "Our average response time is under 2 minutes during business hours. We're available 24/7 via WhatsApp for urgent inquiries. Once connected, we match you with a professional within 2 hours on average, and often much faster for common needs.",
-      icon: <FiClock />,
-      category: "Service",
-      color: "from-[#f093fb] to-[#f5576c]"
-    },
+    
+    
     {
       question: "What if I'm not satisfied with the professional?",
       answer: "Your satisfaction is guaranteed. If for any reason you're not happy with your first session, we'll find you another professional at no extra cost, and the first session is free. We continuously monitor feedback and maintain quality standards.",
