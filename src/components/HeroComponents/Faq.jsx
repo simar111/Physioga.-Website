@@ -25,7 +25,7 @@ const FAQSection = () => {
     
     {
       question: "What if I'm not satisfied with the professional?",
-      answer: "Your satisfaction is guaranteed. If for any reason you're not happy with your first session, we'll find you another professional at no extra cost, and the first session is free. We continuously monitor feedback and maintain quality standards.",
+      answer: "Your satisfaction is guaranteed. If for any reason you're not happy with your first session, we'll find you another professional at no extra cost. We continuously monitor feedback and maintain quality standards.",
       icon: <FiCheckCircle />,
       category: "Support",
       color: "from-[#4facfe] to-[#00f2fe]"
