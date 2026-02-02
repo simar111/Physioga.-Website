@@ -57,7 +57,7 @@ const Footer = () => {
             Contact
           </h3>
           <ul className="space-y-3 text-sm">
-            <li>Email: support@physioga.in</li>
+            <li>Email: physiogaoffical@gmail.com</li>
             <li>Phone: +91 9530045520</li>
             <li>India</li>
           </ul>
